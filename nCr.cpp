@@ -3,6 +3,7 @@
 int pwr(int x,int y,int p=MOD) {
     int res=1;
     x%=p;
+    if(!x) return 0;
     while(y>0) {
         if(y&1) res=(res*x)%p;
         y>>=1;
