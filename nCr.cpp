@@ -32,7 +32,7 @@ void facm(int p=MOD) {
 }
 
 int ncr(int n,int r){
-    if(n<r|||n<0||r<0) return 0;
+    if(n<r||n<0||r<0) return 0;
     int ans=(fac[n]*invfac[r])%MOD;
     ans*=invfac[n-r];
     ans%=MOD;
