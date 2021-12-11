@@ -1,7 +1,7 @@
 #include<bits/stdc++.h>
 using namespace std;
 
-#define int long long //int main to signed main (Avoid if TC very close to limit)
+#define int long long //Avoid if time complexity very close to limit
 #define ll long long
 #define sz(x) (int)((x).size())
 #define all(x) (x).begin(),(x).end()
